@@ -1,0 +1,25 @@
+/* src/components/CardPago.css */
+
+.card-pago {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card-pago h3 {
+  margin: 0 0 8px;
+}
+
+.card-pago .estado.pagado {
+  color: green;
+}
+
+.card-pago .estado.pendiente {
+  color: orange;
+}
+
+.card-pago .estado.vencido {
+  color: red;
+}
