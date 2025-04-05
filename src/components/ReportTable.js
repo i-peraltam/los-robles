@@ -1,7 +1,7 @@
 // src/components/ReportTable.js
 
 import React from 'react';
-import './ReportTable.css'; // Puedes personalizar los estilos si lo deseas
+import './ReportTable.css';
 
 const ReportTable = ({ reportes }) => {
   return (
