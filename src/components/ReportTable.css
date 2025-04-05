@@ -1,0 +1,23 @@
+/* src/components/ReportTable.css */
+
+.tabla-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.tabla-reportes {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-reportes th,
+.tabla-reportes td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-reportes th {
+  background-color: #4CAF50;
+  color: white;
+}
